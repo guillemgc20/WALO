@@ -1,0 +1,100 @@
+/* Estilos generales */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilos de los botones */
+  .dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .dropdown ul li {
+    margin-right: 10px;
+  }
+  
+  /* Estilos del panel desplegable */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  /* Mostrar el panel desplegable cuando se pasa el ratón sobre el botón */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.Main_Title {
+    font-size: 30px;
+    color: rgb(120, 0, 120);
+    
+}
+.CMENU {
+  width: 1000%;
+  height: 100%;
+  margin: 25px;
+  background-color: #3333335c;
+
+  color: rgb(215, 215, 215);
+}
+.MENU {
+    width: 50px;
+    height: 35px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #333333;
+    padding: 8px;
+    color: rgb(215, 215, 215);
+}
+.Barra_Intermedia {
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+}
+.Barra_Intermediaint {
+    color: #000000;
+    text-decoration: underline;
+    font-size: 17px;
+}
+.sidebar {
+  width: 10%;
+  height: 100%;
+  background-color: #6c6c6c;
+  color: #ffffff;
+  padding: 20px;
+  display: none;
+}
+.sidebar.open {
+  display: block;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #000000;
+  text-decoration: none;
+}
+.fondo {
+  background-color: #40404088;
+  width: 100%;
+  height: 98px;
+}
+.fondo1 {
+  background-color: #89898988;
+  width: 100%;
+  height: 37px;
+}
